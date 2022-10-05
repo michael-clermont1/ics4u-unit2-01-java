@@ -22,7 +22,7 @@ public class Stack {
      * @param pushedNumber -  how much to slow down
      */
 
-    public void push(int pushedNumber) {
+    public void push(final int pushedNumber) {
         this.stackAsList.add(pushedNumber);
     }
     /**
